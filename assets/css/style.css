@@ -1,0 +1,90 @@
+body, html {
+    height: 100%;
+    background-image: url("../images/background.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .container {
+    max-width: 90%;
+  }
+
+  .header {
+    background-color: #000000;
+    text-shadow: 3px 4px #1ed7f8;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  .instructions {
+    background-color: #202020;
+    color: #2bd1ee;
+    text-shadow: 3px 3px #080808;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+ 
+  h2 {
+    font-size: 20px !important;
+  }
+
+  #gScore {
+    background-color: #373837;
+    color: white;
+    text-align: center; 
+    padding-right: 15px;
+    margin-right: 50px;
+    text-shadow:none !important;
+    font-size: 20px;
+  }
+
+  #wScore {
+    background-color: #646666;
+    color:  #9b9c9c;
+    text-align: center;
+    margin-right: 50px;
+    text-shadow:none !important;
+    font-size: 20px;
+  }
+
+  #lScore {
+    background-color: #9b9c9c;
+    color:#373837;
+    text-align: center;
+    margin-right: 50px;
+    text-shadow:none !important;
+    font-size: 20px;
+}
+
+#uScore {
+    background-color: #dee2e2;
+    text-align: center;
+    color: black;
+    text-shadow:none !important;
+    font-size: 20px;
+  }
+
+  .crystals {
+    margin: 20px;
+    padding: 10px;
+  }
+
+  #scoreRow {
+      padding-top:50px;
+      padding-bottom: 50px;
+  }
+
+  .btn {
+    height: 250px;
+    width: 250px;
+  }
