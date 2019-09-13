@@ -8,11 +8,11 @@ $(document).ready(function () {
     var lossCount = 0;
     $("#lScore").text("Losses: " + lossCount);
     var userScore = 0;
-    var gameScore = Math.floor(Math.random() * 102) + 19;
-    var crystalOne = Math.floor(Math.random() * 12) + 1;
-    var crystalTwo = Math.floor(Math.random() * 12) + 1;
-    var crystalThree = Math.floor(Math.random() * 12) + 1;
-    var crystalFour = Math.floor(Math.random() * 12) + 1;
+    var gameScore = Math.floor(Math.random() * 99) + 17;
+    var crystalOne = Math.floor(Math.random() * 11) + 1;
+    var crystalTwo = Math.floor(Math.random() * 11) + 1;
+    var crystalThree = Math.floor(Math.random() * 11) + 1;
+    var crystalFour = Math.floor(Math.random() * 11) + 1;
     $("#gScore").text("Game Score: " + gameScore);
     $("#uScore").text("User Score: " + userScore);
 
@@ -21,11 +21,11 @@ $(document).ready(function () {
 
     function resetGame() {
         userScore = 0;
-        gameScore = Math.floor(Math.random() * 102) + 19;
-        crystalOne = Math.floor(Math.random() * 12) + 1;
-        crystalTwo = Math.floor(Math.random() * 12) + 1;
-        crystalThree = Math.floor(Math.random() * 12) + 1;
-        crystalFour = Math.floor(Math.random() * 12) + 1;
+        gameScore = Math.floor(Math.random() * 99) + 17;
+        crystalOne = Math.floor(Math.random() * 11) + 1;
+        crystalTwo = Math.floor(Math.random() * 11) + 1;
+        crystalThree = Math.floor(Math.random() * 11) + 1;
+        crystalFour = Math.floor(Math.random() * 11) + 1;
         $("#gScore").text("Game Score: " + gameScore);
         $("#uScore").text("User Score: " + userScore);
 
